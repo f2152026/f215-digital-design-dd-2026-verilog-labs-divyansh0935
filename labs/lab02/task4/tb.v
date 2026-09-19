@@ -38,6 +38,7 @@ module tb;
     #2 t_a = 0; t_b = 0;
     #10 $finish;
   end
+  
 
   initial
     $monitor($time, " a=%b b=%b | df=%b  before=%b  intra=%b",
